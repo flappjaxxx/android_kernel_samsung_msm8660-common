@@ -1804,7 +1804,7 @@ fail:
 }
 
 #ifdef CONFIG_USB_HOST_NOTIFY
-static void msm_hsusb_set_autosw_pba(void)
+static void msm_hsusb_set_autosw_pba()
 {
 #ifdef CONFIG_USB_SWITCH_FSA9480
 	fsa9480_otg_set_autosw_pba();
