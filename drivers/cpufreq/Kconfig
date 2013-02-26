@@ -153,12 +153,6 @@ config CPU_FREQ_DEFAULT_GOV_LIONHEART
 	  Use the CPUFreq governor 'lionheart' as default.
 
 
-config CPU_FREQ_DEFAULT_GOV_PEGASUSQ
-	bool "pegasusq"
-	select CPU_FREQ_GOV_PEGASUSQ
-	help
-	A modified ondemand governor.
-
 config CPU_FREQ_DEFAULT_GOV_INTERACTIVEX
   	bool "interactiveX"
   	select CPU_FREQ_GOV_INTERACTIVEX
@@ -214,12 +208,6 @@ config CPU_FREQ_GOV_INTERACTIVEX
 config CPU_FREQ_GOV_LIONHEART
 	tristate "'lionheart' spufreq governor"
 	depends on CPU_FREQ
-
-config CPU_FREQ_GOV_PEGASUSQ
-	tristate "'pegasusq' cpufreq policy governor"	
-	help	
-	  'pegasusq' - CPU governor.
-
 
 config CPU_FREQ_GOV_POWERSAVE
 	tristate "'powersave' governor"
