@@ -13,6 +13,10 @@ obj-$(CONFIG_CPU_FREQ_GOV_INTERACTIVE)	+= cpufreq_interactive.o
 obj-$(CONFIG_CPU_FREQ_GOV_LULZACTIVE)  += cpufreq_lulzactive.o
 obj-$(CONFIG_CPU_FREQ_GOV_BADASS)  += cpufreq_badass.o
 obj-$(CONFIG_CPU_FREQ_GOV_WHEATLEY)  += cpufreq_wheatley.o
+obj-$(CONFIG_CPU_FREQ_GOV_INTERACTIVEX)  += cpufreq_interactiveX.o
+obj-$(CONFIG_CPU_FREQ_GOV_PEGASUSQ)  += cpufreq_pegasusq.o
+obj-$(CONFIG_CPU_FREQ_GOV_INTELLIDEMAND)+= cpufreq_intellidemand.o
+obj-$(CONFIG_CPU_FREQ_GOV_LIONHEART)  += cpufreq_lionheart.o
 
 # CPUfreq cross-arch helpers
 obj-$(CONFIG_CPU_FREQ_TABLE)		+= freq_table.o
